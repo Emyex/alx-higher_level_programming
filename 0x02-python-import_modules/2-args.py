@@ -8,6 +8,6 @@ elif len(argv) < 3:
 print("1 argument:")
 else:
 print("{:d} arguments:".format(len(argv) - 1))
-for arg in argv[1:]:
+for arg in argv[0:]:
 print("{:d}: {:s}".format(i, arg))
 i += 1
